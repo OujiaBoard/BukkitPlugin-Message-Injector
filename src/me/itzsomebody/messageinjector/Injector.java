@@ -52,7 +52,7 @@ public class Injector extends JFrame {
                 Injector injector = new Injector();
                 injector.setTitle("Bukkit Message Injector");
                 injector.setResizable(false);
-                injector.setSize(440, 155);
+                injector.setSize(440, 135);
                 injector.setLocationRelativeTo(null);
                 injector.setDefaultCloseOperation(3);
                 injector.getContentPane().setLayout(new FlowLayout());
@@ -60,10 +60,10 @@ public class Injector extends JFrame {
                 JLabel label2 = new JLabel("Inject Msg: ");
                 injector.field = new JTextField();
                 injector.field.setEditable(true);
-                injector.field.setColumns(30);
+                injector.field.setColumns(18);
                 injector.messagetoinject = new JTextField();
                 injector.messagetoinject.setEditable(true);
-                injector.messagetoinject.setColumns(18);
+                injector.messagetoinject.setColumns(25);
                 JButton selectButton = new JButton("Select");
                 selectButton.setToolTipText("Select jar file");
                 selectButton.addActionListener(new ActionListener() {
